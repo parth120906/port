@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(89, 53, 114);
+}
+
+.page{
+    background-color: rgb(88, 28, 133);
+    height: 600px;
+    position: relative;
+    top: 40px;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(88, 28, 133);
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+}
+.navbar a:hover{
+    color: rgb(226, 43, 226);
+}
+ .imga img{
+    background-size: cover;
+    
+    height: 400px;
+    width: auto;
+    position: relative;
+    left: 850px;
+bottom: 180px;
+}
+.nav-sec{
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.nav-sec button{
+    font-size: medium;
+    height: 40px;
+    background-color: rgb(88, 28, 133);
+    border: solid violet 2px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+}
+.nav-sec button:hover {
+    background-color: rgb(185, 37, 180);
+}
+.nav-sec p {
+    font-size: larger;
+}
